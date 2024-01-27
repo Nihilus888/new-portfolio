@@ -1,7 +1,8 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import ProjectCard from './ProjectCard';
 import ProjectTag from './ProjectTag';
+import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
@@ -30,11 +31,31 @@ const projectsData = [
     tag: ["All", "Software Engineering"],
     gitUrl: 'hello there',
     previewUrl: '/',
-  }
+  },
+  {
+    id: 4,
+    title: 'Medicine Recommendation System',
+    description: "Comes up with a recommended medicine based on your symptoms",
+    image: "",
+    tag: ["All", "Data Science"],
+    gitUrl: "hello there",
+    previewUrl: '/',
+  },
+  {
+    id: 5,
+    title: "Meta Stock Price Predictor",
+    description: "Predicts the price of Meta's stock based on historical price data",
+    image: "",
+    tag: ["All", "Data Science"],
+    gitUrl: "hello there",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
 
   const handleTagChange = (newTag) => {
     setTag(newTag);

@@ -10,9 +10,9 @@ const projectsData = [
     title: "Webull",
     description: "Financial app that uses machine learning to predict the stock price for the next day while also keeping track of your portfolio with data visualisation",
     tag: ["All", "Software Engineering"],
-    image: "",
+    image: "/Users/elliotttay/Desktop/new-portfolio/public/github-mark.svg",
     gitUrl: 'hello there',
-    previewUrl: '/',
+    previewUrl: '/Users/elliotttay/Desktop/new-portfolio/public/github-mark.svg',
   },
   {
     id: 2,

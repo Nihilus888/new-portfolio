@@ -53,7 +53,7 @@ const EmailsSection = () => {
                 Whether you have a question or just want to say hi, I'll try my best 
                 to get back to you!
             </p>
-            <div className="socials flex flex-row gap-2">
+            <div className="socials flex flex-row gap-2 hover">
                 <Link href="https://github.com/Nihilus888">
                     <Image src={GithubIcon} alt="Github Icon"/>
                 </Link>

@@ -11,8 +11,8 @@ const projectsData = [
     description: "Financial app that uses machine learning to predict the stock price for the next day while also keeping track of your portfolio with data visualisation",
     image: "images/Bull.jpg",
     tag: ["All", "Software Engineering"],
-    gitUrl: '',
-    previewUrl: '/Users/elliotttay/Desktop/new-portfolio/public/github-mark.svg',
+    gitUrl: 'https://github.com/Nihilus888/ibull',
+    previewUrl: 'https://ibull.netlify.app/',
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const projectsData = [
     description: "Helps people find tech jobs by aggregating jobs from different job portals while keeping track which one they applied to",
     image: "images/Computer-Science.jpg",
     tag: ["All", "Software Engineering"],
-    gitUrl: 'hello there',
-    previewUrl: '/',
+    gitUrl: 'https://github.com/Nihilus888/Software-Engineer-Job-Portal-Backend',
+    previewUrl: 'https://lunfy.github.io/Software-Engineer-Job-Portal-Frontend/',
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ const projectsData = [
     description: "Helps keep track of meetings and other random items in your day",
     image: "images/Calendar.png",
     tag: ["All", "Software Engineering"],
-    gitUrl: 'hello there',
-    previewUrl: '/',
+    gitUrl: 'https://github.com/Nihilus888/Calendar-App',
+    previewUrl: 'https://calendar-application.netlify.app/',
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const projectsData = [
     image: "images/recommendation-system.jpg",
     tag: ["All", "Data Science"],
     gitUrl: "https://www.kaggle.com/code/nihilus888/medicine-recommendation-system/edit",
-    previewUrl: '/',
+    previewUrl: 'https://www.kaggle.com/code/nihilus888/medicine-recommendation-system/edit',
   },
   {
     id: 5,
@@ -47,8 +47,8 @@ const projectsData = [
     description: "Data visualization of Meta stock price and predicts the price of Meta's stock based on historical price data",
     image: "images/stock-price.jpg",
     tag: ["All", "Data Science"],
-    gitUrl: "hello there",
-    previewUrl: "/",
+    gitUrl: "https://www.kaggle.com/code/nihilus888/meta-stock-price-prediction",
+    previewUrl: "https://www.kaggle.com/code/nihilus888/meta-stock-price-prediction",
   },
   {
     id: 6,
@@ -56,8 +56,8 @@ const projectsData = [
     description: "Data visualization of Gold price and predicts the price of gold with its historical price data",
     image: "images/gold-bars.jpg",
     tag: ["All", "Data Science"],
-    gitUrl: "hello there",
-    previewUrl: "/"
+    gitUrl: "https://www.kaggle.com/code/nihilus888/gold-price-analysis-and-prediction",
+    previewUrl: "https://www.kaggle.com/code/nihilus888/gold-price-analysis-and-prediction"
   }
 ];
 

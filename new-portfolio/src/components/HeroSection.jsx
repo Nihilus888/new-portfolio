@@ -22,6 +22,8 @@ const HeroSection = () => {
                                 1000,
                                 'a Data Scientist',
                                 1000,
+                                'a Copywriter',
+                                1000,
                                 'a Polymath',
                                 1000
                             ]}

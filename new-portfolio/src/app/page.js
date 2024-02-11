@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import HeroSection from '@/components/HeroSection'
-import NavBar from '@/components/NavBar'
-import AboutSection from '@/components/AboutSection';
-import ProjectsSection from '@/components/ProjectsSection';
-import EmailsSection from '@/components/EmailsSection';
-import AchievementsSection from '@/components/AchievementSection';
-import Footer from '@/components/Footer';
+import HeroSection from '/src/components/HeroSection.jsx'
+import NavBar from '/src/components/NavBar'
+import AboutSection from '/src/components/AboutSection';
+import ProjectsSection from '/src/components/ProjectsSection';
+import EmailsSection from '/src/components/EmailsSection';
+import AchievementsSection from '/src/components/AchievementSection';
+import Footer from '/src/components/Footer';
 
 export default function Home() {
   return (

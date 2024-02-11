@@ -37,7 +37,7 @@ const EmailsSection = () => {
         console.log("Message sent.");
         setEmailSubmitted(true);
       }
-    };
+    };  
   
   return (
     <section

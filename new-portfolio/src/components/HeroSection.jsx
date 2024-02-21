@@ -10,7 +10,7 @@ const HeroSection = () => {
             <div className="grid grid-cols-1 lg:grid-cols-12">
                 <div className="col-span-7 place-self-center text-center sm:text-left">
                     <h1 className="text-white text-4xl lg:text-6xl font-extrabold">
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">Hello I'm {" "}</span>
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">Hello I am {" "}</span>
                         <br>
                         </br>
                         <TypeAnimation
@@ -42,7 +42,7 @@ const HeroSection = () => {
                         </button>
                         <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-500 text-white mt-3">
                             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                            <a href="https://docs.google.com/document/d/1DRiwWG02irmNQWzMiMCV7KV3r0cSBXev/edit?usp=sharing&amp;ouid=111075217899376721464&amp;rtpof=true&amp;sd=true">Download CV</a>
+                            <span>Download CV</span>
                             </span>
                         </button>
                     </div>

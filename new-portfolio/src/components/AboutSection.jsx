@@ -70,11 +70,11 @@ const AboutSection = () => {
     return (
         <section className="text-white">
             <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-                <Image src="/images/computer.jpg" width={500} height={500} alt="computer image"/>
+                <Image src="/images/computer.jpg" width={500} height={500} />
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-lg underline bold decoration-2">About Me</h2>
                     <p className="text-base lg:text-lg">
-                        Welcome! I am Elliott, a passionate and versatile professional with a multifaceted skill set in software engineering, data science, and a wide range of interdisciplinary domains. I thrive on exploring complex problems, building innovative solutions, and continuously learning across various fields.
+                        Welcome! I'm Elliott, a passionate and versatile professional with a multifaceted skill set in software engineering, data science, and a wide range of interdisciplinary domains. I thrive on exploring complex problems, building innovative solutions, and continuously learning across various fields.
                     </p>
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton

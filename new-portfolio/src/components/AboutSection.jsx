@@ -31,7 +31,7 @@ const TAB_DATA = [
                 <li>Tailwind CSS</li>
                 <li>Bootstrap</li>
                 <li>Data Science/Machine Learning</li>
-                <li>Data Analytics</li>
+                <li>Data Analytics (Power BI)</li>
             </ul>
         )
     },
@@ -42,6 +42,7 @@ const TAB_DATA = [
             <ul className="list-disc pl-2">
                 <li>General Assembly Software Engineering Immersive</li>
                 <li>Singapore University of Technology and Design</li>
+                <li>University of London</li>
             </ul>
         )
     },
@@ -50,8 +51,15 @@ const TAB_DATA = [
         id: "certifications",
         content: (
             <ul className="list-disc pl-2">
-                <li>Responsive Web Design</li>
-                <li>Data Analysis with Python</li>
+                <li>
+                    <a href="https://www.freecodecamp.org/certification/Nihilus888/data-analysis-with-python-v7" class="transition-transform hover:text-purple-500 hover:underline hover:cursor-pointer hover:-translate-y-1">Data Analysis with Python</a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/certification/Nihilus888/responsive-web-design" class="transition-transform hover:text-purple-500 hover:underline hover:cursor-pointer hover:-translate-y-1">Responsive Web Design</a>
+                </li>
+                <li>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/DTE9F6SFAXHG" class="transition-transform hover:text-purple-500 hover:underline hover:cursor-pointer hover:-translate-y-1">Game Theory</a>
+                </li>
             </ul>
         )
     }

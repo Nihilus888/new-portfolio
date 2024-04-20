@@ -18,7 +18,7 @@
     "react-dom": "^18",
     "react-type-animation": "^3.2.0",
     "resend": "^2.0.0",
-    "vercel": "^33.5.1"
+    "vercel": "^33.7.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

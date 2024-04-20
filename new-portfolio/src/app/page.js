@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar'
 import AboutSection from '../components/AboutSection';
 import ProjectsSection from '../components/ProjectsSection';
 import EmailsSection from '../components/EmailsSection';
-import AchievementsSection from '../components/AchievementSection';
+import AchievementsSection from '../components/AchievementsSection';
 import Footer from '../components/Footer';
 
 export default function Home() {

@@ -2,6 +2,7 @@
 import React, {useState} from 'react';
 import Link from "next/link";
 import NavLink from "./NavLink";
+import MenuOverlay from './MenuOverlay';
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"; 
 
 const navLinks = [
@@ -26,7 +27,7 @@ const NavBar = () => {
         <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
             <div className="flex flex-wrap items-center justify-between mx-auto px-4">
                 <Link href={"/"} className="text-xl md:text-2xl text-white font-semibold font-italic">
-                    Elliott Tay's Portfolio
+                    Elliott Tay Portfolio
                 </Link>
                 <div className="mobile-menu block md:hidden">
                     {

@@ -13,6 +13,7 @@ const TAB_DATA = [
                 <li>
                     Built API Integration with Lazada, English Premier League and Sentosa
                 </li>
+                <li>Built internal tools with other software engineers such as our dashboard to help other teams to streamline efficiency</li>
                 <li>Debugging front-end and back-end features to ensure optimality for customers to book tickets from our different distribution partners</li>
                 <li>Using data analytics and data science to do data visualization and predict ticket sales with an accuracy of up to 95%</li>
             </ul>
@@ -29,7 +30,7 @@ const TAB_DATA = [
                 <li>React</li>
                 <li>Vue</li>
                 <li>Tailwind CSS</li>
-                <li>Bootstrap</li>
+                <li>Python</li>
                 <li>Data Science/Machine Learning</li>
                 <li>Data Analytics</li>
             </ul>
@@ -70,9 +71,30 @@ const TAB_DATA = [
                     Cryptography I
                 </a>
                 </li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/SHDCXEULE4NJ"
+                    className="relative inline-block hover:text-purple-600 hover:underline transition duration-300 transform hover:-translate-y-1">
+                    Financial Markets
+                    </a>
+                </li>
             </ul>
         )
-    }
+    },
+    {
+        title: "Extracurricular",
+        id: "extracurricular",
+        content: (
+            <ul className="list-disc pl-2">
+                <li className="underline">President of SUTD MarketWatch (2020-2021)</li>
+                <p>- Develop relationships with banks and other financial institutions to provide finance education to students</p>
+
+                <li className="underline">Investing Note Trading Competition 2022</li>
+                <p>- Generated 12% in two weeks and top 3% among 5000 participants from trading CFDs in SGX, Hang Seng, and Nasdaq equities</p>
+                
+                <li className="underline">Citi Bank-YMCA Entrepreneur Competition</li>
+                <p>- Raised over $20,000 for a charity organization and won Distinguished Entrepreneur Award</p>
+            </ul>
+          )
+    },
 ]
 
 const AboutSection = () => {
@@ -118,6 +140,12 @@ const AboutSection = () => {
                             active={tab === "certifications"}>
                             {" "}
                             Certifications {" "}
+                        </TabButton>
+                        <TabButton 
+                            selectTab={() => handleTabChange("extracurricular")} 
+                            active={tab === "extracurricular"}>
+                            {" "}
+                            Extracurricular {" "}
                         </TabButton>
                     </div>
                     <div className="mt-8">

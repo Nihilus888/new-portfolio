@@ -42,7 +42,8 @@ const TAB_DATA = [
         content: (
             <ul className="list-disc pl-2">
                 <li>General Assembly Software Engineering Immersive</li>
-                <li>Singapore University of Technology and Design</li>
+                <li>Singapore University of Technology and Design Computer Science and Design</li>
+                <li>University of London Computer Science (Machine Learning/Artificial Intelligence)</li>
             </ul>
         )
     },

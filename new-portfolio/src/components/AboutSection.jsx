@@ -11,9 +11,9 @@ const TAB_DATA = [
             <ul className="list-disc pl-2">
                 <div className="underline bold text-decoration-2">Junior Software Engineer at BeMyGuest (March 2023 - Present)</div>
                 <li>
-                    Built API Integration with Lazada, English Premier League and Sentosa
+                    Built API Integration with Lazada, English Premier League and Sentosa increasing booking efficiency by 40%
                 </li>
-                <li>Built internal tools with other software engineers such as our dashboard to help other teams to streamline efficiency</li>
+                <li>Built internal tools with other software engineers such as our dashboard to help other teams to streamline efficiency by 30%</li>
                 <li>Debugging front-end and back-end features to ensure optimality for customers to book tickets from our different distribution partners</li>
                 <li>Using data analytics and data science to do data visualization and predict ticket sales with an accuracy of up to 95%</li>
             </ul>

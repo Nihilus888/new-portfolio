@@ -9,13 +9,12 @@ const TAB_DATA = [
         id: "experience",
         content:(
             <ul className="list-disc pl-2">
-                <div className="underline bold text-decoration-2">Junior Software Engineer at BeMyGuest (March 2023 - Present)</div>
+                <div className="underline bold text-decoration-2">Junior Software Engineer at BeMyGuest (March 2023 - Dec 2024)</div>
                 <li>
-                    Built API Integration with Lazada, English Premier League and Sentosa increasing booking efficiency by 40%
+                Integrated third-party APIs using Laravel and REST/SOAP, automating booking distribution for partners like the EPL and Sentosa, boosting efficiency by 75% with platforms like Agoda and Lazada.
                 </li>
-                <li>Built internal tools with other software engineers such as our dashboard to help other teams to streamline efficiency by 30%</li>
-                <li>Debugging front-end and back-end features to ensure optimality for customers to book tickets from our different distribution partners</li>
-                <li>Using data analytics and data science to do data visualization and predict ticket sales with an accuracy of up to 95%</li>
+                <li>Resolved 20+ front-end and back-end bugs, improving application performance and reducing downtime by 40%.</li>
+                <li>Used Sentry, ELK stack, and Grafana to troubleshoot API latency, cutting issue resolution time by 25% and improving system responsiveness by 30% for 3+ teams.</li>
             </ul>
         )
     },
@@ -24,15 +23,13 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className="list-disc pl-2">
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>Laravel</li>
-                <li>React</li>
-                <li>Vue</li>
-                <li>Tailwind CSS</li>
-                <li>Python</li>
-                <li>Data Science/Machine Learning</li>
-                <li>Data Analytics</li>
+                <li><span className="underline bold">Programming Languages: </span>Python, Javascript, PHP, Java, HTML, CSS</li>
+                <li><span className="underline bold">Frontend: </span>React.js, Next.js, Vue.js, CSS Tailwind, Bootstrap</li>
+                <li><span className="underline bold">Backend: </span>Node.js, Express.js, Django, Laravel</li>
+                <li><span className="underline bold">Data Science/ML/AI Tools: </span>Numpy, Pandas, Scikit-learn, TensorFlow, PyTorch, OpenCV, Keras</li>
+                <li><span className="underline bold">Database/DevOps: </span>MySQL, MongoDB, CI/CD, Github (Version Control), Git, Deployment, Docker</li>
+                <li><span className="underline bold">Monitoring and Logging: </span>ELK Stack (Elasticsearch, Logstash, Kibana), Grafana, Sentry</li>
+                <li><span className="underline bold">Other Skills/Soft Skills: </span>Portfolio Management, Trading, Financial Analysis, Data Analytics, Math and Statistics, Communication, Collaboration, Attention to Detail, Stakeholder Management</li>
             </ul>
         )
     },

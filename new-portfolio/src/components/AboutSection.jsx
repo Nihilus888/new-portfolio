@@ -9,7 +9,7 @@ const TAB_DATA = [
         id: "experience",
         content:(
             <ul className="list-disc pl-2">
-                <div className="underline bold text-decoration-2">Junior Software Engineer at BeMyGuest (March 2023 - Dec 2024)</div>
+                <div className="underline bold text-decoration-2">Software Engineer at BeMyGuest (March 2023 - Dec 2024)</div>
                 <li>
                 Integrated third-party APIs using Laravel and REST/SOAP, automating booking distribution for partners like the EPL and Sentosa, boosting efficiency by 75% with platforms like Agoda and Lazada.
                 </li>

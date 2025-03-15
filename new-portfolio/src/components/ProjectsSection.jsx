@@ -7,7 +7,7 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Webull",
+    title: "IBull",
     description: "Financial app that uses machine learning to predict the stock price for the next day while also keeping track of your portfolio with data visualisation",
     image: "images/Bull.jpg",
     tag: ["All", "Software Engineering"],

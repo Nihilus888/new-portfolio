@@ -7,12 +7,12 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "IBull",
-    description: "Financial app that uses machine learning to predict the stock price for the next day while also keeping track of your portfolio with data visualisation",
+    title: "OptiStock",
+    description: "A full-stack finance app using React and Django for real-time stock analysis via Alpaca API. Integrated an AI NLP trading bot powered by FinBERT for sentiment analysis. Deployed with CI/CD for automation and reliability.",
     image: "images/Bull.jpg",
     tag: ["All", "Software Engineering"],
-    gitUrl: 'https://github.com/Nihilus888/ibull',
-    previewUrl: 'https://ibull.netlify.app/',
+    gitUrl: 'https://github.com/Nihilus888/OptiStock',
+    previewUrl: 'https://github.com/Nihilus888/OptiStock',
   },
   {
     id: 2,

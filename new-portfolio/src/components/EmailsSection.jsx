@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import Link from "next/link";
 import Image from "next/image";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css"; 
 
 const EmailsSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -18,13 +20,10 @@ const EmailsSection = () => {
 
     // Form the request for sending data to the server.
     const options = {
-      // The method is POST because we are sending data.
       method: "POST",
-      // Tell the server we're sending JSON.
       headers: {
         "Content-Type": "application/json",
       },
-      // Body of the request is the JSON data we created above.
       body: JSONdata,
     };
 
@@ -34,6 +33,10 @@ const EmailsSection = () => {
     if (response.status === 200) {
       console.log("Message sent.");
       setEmailSubmitted(true);
+      toast.success("Message sent successfully!"); // Success toast
+    } else {
+      console.error("Error sending message:", resData.error);
+      toast.error(`Error sending message: ${resData.error}`); // Error toast
     }
   };
 
@@ -130,6 +133,17 @@ const EmailsSection = () => {
           </form>
         )}
       </div>
+      <ToastContainer 
+        position="top-right" 
+        autoClose={5000} 
+        hideProgressBar={false} 
+        newestOnTop={false} 
+        closeOnClick 
+        rtl={false} 
+        pauseOnFocusLoss 
+        draggable 
+        pauseOnHover 
+      />
     </section>
   );
 };

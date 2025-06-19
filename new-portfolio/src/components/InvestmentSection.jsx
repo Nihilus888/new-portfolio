@@ -14,7 +14,7 @@ const InvestmentSection = () => {
                 <img 
                     src="images/Empiria-memo.png"
                     alt="Empiria Memo Preview"
-                    className="mb-7 max-h-96 mx-auto">
+                    className="mb-7 max-h-96 mx-auto rounded-lg shadow-lg">
                 </img>
                 <a 
                     href="/Empiria-Investment-Memo.pdf" 

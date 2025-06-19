@@ -22,7 +22,9 @@ const HeroSection = () => {
                                 1000,
                                 'a Data Scientist',
                                 1000,
-                                'a Copywriter',
+                                'an Investor',
+                                1000,
+                                'a Trader',
                                 1000,
                                 'a Polymath',
                                 1000

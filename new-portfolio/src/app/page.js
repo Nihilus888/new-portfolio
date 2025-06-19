@@ -5,6 +5,7 @@ import AboutSection from '../components/AboutSection';
 import ProjectsSection from '../components/ProjectsSection';
 import EmailsSection from '../components/EmailsSection';
 import AchievementsSection from '../components/AchievementsSection';
+import InvestmentSection from '../components/InvestmentSection';
 import Footer from '../components/Footer';
 import { Analytics } from "@vercel/analytics/react"
 
@@ -17,6 +18,7 @@ export default function Home() {
         <AchievementsSection />
         <AboutSection />
         <ProjectsSection />
+        <InvestmentSection />
         <EmailsSection />
       </div>
       <Footer />

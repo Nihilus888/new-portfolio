@@ -11,6 +11,11 @@ const InvestmentSection = () => {
                 <p className="text-lg md:text-xl mb-10 leading-relaxed">
                     A high-conviction personal fund that has <span className="font-semibold text-green-400">outperformed the S&P 500 by +15.63%</span> since inception (Sep 2023 – Jun 2025).
                 </p>
+                <img 
+                    src="images/Empiria-memo.png"
+                    alt="Empiria Memo Preview"
+                    className="mb-7 max-h-96 mx-auto">
+                </img>
                 <a 
                     href="/Empiria-Investment-Memo.pdf" 
                     download 

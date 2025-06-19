@@ -52,12 +52,12 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Gold Price Prediction",
-    description: "Data visualization of Gold price and predicts the price of gold with its historical price data",
-    image: "images/gold-bars.jpg",
+    title: "Reinforcement learning trading bot",
+    description: "Built using PPO and bot has positive rewards without reward hacking",
+    image: "images/reinforcement-learning.png",
     tag: ["All", "Data Science"],
-    gitUrl: "https://www.kaggle.com/code/nihilus888/gold-price-analysis-and-prediction",
-    previewUrl: "https://www.kaggle.com/code/nihilus888/gold-price-analysis-and-prediction"
+    gitUrl: "https://www.kaggle.com/code/nihilus888/s-p-500-reinforcement-learning",
+    previewUrl: "https://www.kaggle.com/code/nihilus888/s-p-500-reinforcement-learning"
   }
 ];
 

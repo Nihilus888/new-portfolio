@@ -53,7 +53,7 @@ const projectsData = [
   {
     id: 6,
     title: "Reinforcement learning trading bot",
-    description: "Built using PPO and bot has positive rewards without reward hacking",
+    description: "Built using PPO and bot has positive rewards without reward hacking based on discrete actions of buy, sell and hold on 100 years of S&P 500 data",
     image: "images/reinforcement-learning.png",
     tag: ["All", "Data Science"],
     gitUrl: "https://www.kaggle.com/code/nihilus888/s-p-500-reinforcement-learning",

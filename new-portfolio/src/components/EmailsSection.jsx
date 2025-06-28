@@ -56,7 +56,7 @@ const EmailsSection = () => {
         <div className="socials flex flex-row gap-2 hover">
           <Link href="https://github.com/Nihilus888">
             <Image
-              src="/icons8-github.svg"
+              src="/github-icon.png"
               alt="Github Icon"
               width={30}
               height={30}
@@ -66,6 +66,14 @@ const EmailsSection = () => {
             <Image
               src="/icons8-linkedin.svg"
               alt="LinkedIn Icon"
+              width={30}
+              height={30}
+            />
+          </Link>
+          <Link href="https://www.kaggle.com/nihilus888">
+            <Image 
+              src="/kaggle-icon.svg"
+              alt="Kaggle Icon"
               width={30}
               height={30}
             />

@@ -7,17 +7,31 @@ const TAB_DATA = [
     {
         title: "Experience",
         id: "experience",
-        content:(
-            <ul className="list-disc pl-2">
-                <div className="underline bold text-decoration-2">Software Engineer at BeMyGuest (March 2023 - Dec 2024)</div>
+        content: (
+          <ul className="list-disc pl-2 space-y-6">
+            <li>
+              <div className="underline font-bold">Software Engineer at G.tech (Jul 2025 - Present)</div>
+              <ul className="list-disc pl-4">
                 <li>
-                Integrated third-party APIs using Laravel and REST/SOAP, automating booking distribution for partners like the EPL and Sentosa, boosting efficiency by 75% with platforms like Agoda and Lazada.
+                  Built and deployed a YOLOv11-based vision model to detect barrier anomalies (stuck, normal, dropped) with 87% mAP@50; integrated with FastAPI and Docker for real-time inference on AWS.
                 </li>
-                <li>Resolved 20+ front-end and back-end bugs, improving application performance and reducing downtime by 40%.</li>
-                <li>Used Sentry, ELK stack, and Grafana to troubleshoot API latency, cutting issue resolution time by 25% and improving system responsiveness by 30% for 3+ teams.</li>
-            </ul>
+              </ul>
+            </li>
+      
+            <li>
+              <div className="underline font-bold">Junior Software Engineer at BeMyGuest (Mar 2023 - Dec 2024)</div>
+              <ul className="list-disc pl-4">
+                <li>
+                  Integrated third-party APIs using Laravel and REST/SOAP, automating booking distribution for partners like the EPL and Sentosa, boosting efficiency by 75% with platforms like Agoda and Lazada.
+                </li>
+                <li>
+                  Used Sentry, ELK stack, and Grafana to troubleshoot API latency, cutting issue resolution time by 25% and improving system responsiveness by 30% for 3+ teams.
+                </li>
+              </ul>
+            </li>
+          </ul>
         )
-    },
+      },
     {
         title: "Skills",
         id: "skills",

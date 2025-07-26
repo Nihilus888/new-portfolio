@@ -47,9 +47,9 @@ const InvestmentSection = () => {
         >
           A high-conviction personal fund that has{" "}
           <span className="font-semibold text-green-400">
-            outperformed the S&amp;P 500 by +15.63%
+            outperformed the S&amp;P 500 by +22.64% with returns of 71.68% compared to S&amp;P 500 returns of 48.64%
           </span>{" "}
-          since inception (Sep 2023 – Jun 2025).
+          since inception (Sep 2023 – Jul 2025).
         </motion.p>
         <motion.img
           src="images/Empiria-memo.png"

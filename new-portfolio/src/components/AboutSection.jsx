@@ -13,7 +13,7 @@ const TAB_DATA = [
               <div className="underline font-bold">Software Engineer at G.tech (Jul 2025 - Present)</div>
               <ul className="list-disc pl-4">
                 <li>
-                  Built and deployed a YOLOv11-based vision model to detect barrier anomalies (stuck, normal, dropped) with 87% mAP@50; integrated with FastAPI and Docker for real-time inference on AWS.
+                  Built and deployed a YOLOv11-based vision model to detect barrier anomalies (stuck, normal, dropped) with 87% mAP@50; integrated with FastAPI and Docker for real-time inference on AWS with CircleCI for CI/CD.
                 </li>
               </ul>
             </li>

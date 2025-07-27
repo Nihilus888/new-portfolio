@@ -58,6 +58,50 @@ const InvestmentSection = () => {
           variants={fadeUpVariant}
           custom={2}
         />
+
+        <div className="mt-8 mb-8">
+          <div className="grid grid-cols-4 sm:grid-cols-5 lg:grid-cols-6 gap-6">
+            {[
+              {
+                label: "Empiria's Cumulative Return",
+                value: "+71.36%",
+              },
+              {
+                label: "S&P 500 Cumulative Return",
+                value: "+48.54%",
+              },
+              {
+                label: "Alpha vs S&P 500",
+                value: "+22.82%",
+              },
+              {
+                label: "Sharpe Ratio",
+                value: "1.3",
+              },
+              {
+                label: "Sortino Ratio",
+                value: "1.2",
+              },
+              {
+                label: "Standard Deviation",
+                value: "1.6%",
+              }
+            ].map((item, i) => (
+              <motion.a
+                key={item.label}
+                className="block rounded-lg border border-white/10 bg-white/5 p-5 shadow hover:bg-white/10 transition"
+                variants={fadeUpVariant}
+                custom={3 + i}
+                whileHover={{ scale: 1.03 }}
+                whileTap={{ scale: 0.99 }}
+              >
+                <div className="text-sm text-white/68">{item.label}</div>
+                <div className="mt-1 text-m font-bold">{item.value}</div>
+              </motion.a>
+            ))}
+          </div>
+        </div>
+        
         <motion.a
           href="/Empiria-Investment-Memo.pdf"
           download

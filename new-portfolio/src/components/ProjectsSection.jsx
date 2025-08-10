@@ -58,6 +58,15 @@ const projectsData = [
     tag: ["All", "Data Science"],
     gitUrl: "https://www.kaggle.com/code/nihilus888/s-p-500-reinforcement-learning",
     previewUrl: "https://www.kaggle.com/code/nihilus888/s-p-500-reinforcement-learning"
+  },
+  {
+    id: 7,
+    title: "Jarvis AI",
+    description: "An AI assistant that processes spoken input in real time and delivers intelligent, natural-sounding audio responses.",
+    image: "images/Jarvis-AI.jpg",
+    tag: ["All", "Machine Learning Engineering"],
+    gitUrl: "https://github.com/Nihilus888/Jarvis",
+    previewUrl: "https://github.com/Nihilus888/Jarvis"
   }
 ];
 
@@ -99,6 +108,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Data Science"
           isSelected={tag === "Data Science"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Machine Learning Engineering"
+          isSelected={tag === "Machine Learning Engineering"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

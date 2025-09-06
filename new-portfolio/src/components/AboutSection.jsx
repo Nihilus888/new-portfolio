@@ -124,9 +124,13 @@ const AboutSection = () => {
 
   return (
     <section className="text-white">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/computer.jpg" width={1000} height={1000} alt="computer image"/>
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-9 px-4 xl:gap-16 sm:py-16 xl:px-16">
+          <Image 
+            src="/images/computer.jpg" 
+            alt="computer image" 
+            className="w-full h-auto md:w-[700px] lg:w-[900px] xl:w-[1200px]" 
+          />
+          <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-lg underline bold decoration-2">About Me</h2>
           <p className="text-base lg:text-lg">
             Welcome! I am Elliott, a passionate and versatile professional with a multifaceted skill set in software engineering, data science, and a wide range of interdisciplinary domains. I thrive on exploring complex problems, building innovative solutions, and continuously learning across various fields.

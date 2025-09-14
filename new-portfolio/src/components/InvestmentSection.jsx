@@ -47,9 +47,9 @@ const InvestmentSection = () => {
         >
           A high-conviction personal fund that has{" "}
           <span className="font-semibold text-green-400">
-            outperformed the S&amp;P 500 by +22.82% with returns of 71.36% compared to S&amp;P 500 returns of 48.54%
+            outperformed the S&amp;P 500 by +27.8% with returns of 80.2% compared to S&amp;P 500 returns of 51.52%
           </span>{" "}
-          since inception (Sep 2023 – Jul 2025).
+          since inception (Sep 2023 – Sep 2025).
         </motion.p>
         <motion.img
           src="images/Empiria-memo.png"
@@ -64,15 +64,15 @@ const InvestmentSection = () => {
             {[
               {
                 label: "Empiria's Cumulative Return",
-                value: "+71.36%",
+                value: "+80.20%",
               },
               {
                 label: "S&P 500 Cumulative Return",
-                value: "+48.54%",
+                value: "+51.12%",
               },
               {
                 label: "Alpha vs S&P 500",
-                value: "+22.82%",
+                value: "+27.82%",
               },
               {
                 label: "Sharpe Ratio",
@@ -80,7 +80,7 @@ const InvestmentSection = () => {
               },
               {
                 label: "Sortino Ratio",
-                value: "1.2",
+                value: "1.3",
               },
               {
                 label: "Standard Deviation",
